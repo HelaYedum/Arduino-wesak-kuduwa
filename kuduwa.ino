@@ -28,16 +28,16 @@ p3();
 z(d,h);
 p4();
 z(a,e);
-/**p5();
+p5();
 z(b,f);
 p6();
 z(c,g);
 p7();
 z(d,h);
-p8();*/
+p8();
 }
 void p1(){
-int t=500;
+int t=250;
 int tx=4;
 int ty=2;
 for(int ix=0;ix<8;ix++){
@@ -57,7 +57,7 @@ delay(t);
 }}
 }
 void p2(){
-int t=300;
+int t=150;
 int tx=4;
 for(int i=0;i<4;i++){
 for(int x=a,y=e;x<=d;x++,y++){
@@ -82,7 +82,7 @@ delay(t);
 }}
 }
 void p3(){
-int t=2000;
+int t=1000;
 for(int x=a,y=e;x<=d;x++,y++){
 for(int X=a,Y=e;X<=d;X++,Y++){
 if(x!=X){
@@ -101,7 +101,7 @@ delay(ti);
 }}}}
 }
 void p4(){
-int t=300;
+int t=150;
 int tx=3;
 for(int i=0;i<8;i++){
 for(int A=a;A<=d;A++){
